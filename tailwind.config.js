@@ -9,7 +9,18 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#1C3F39",
+        secondary: "#0A8270",
+        tertiary: "#FFBC00",
+        quaternary: "#FFFAEC",
+      },
+      fontFamily: {
+        Naskh: ['"Noto Naskh Arabic"', "serif"],
+        Merriweather: ["Merriweather", "serif"],
+      },
+    },
   },
   plugins: [],
 };

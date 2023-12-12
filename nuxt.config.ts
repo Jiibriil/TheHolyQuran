@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "radix-vue/nuxt",
     "@nuxt/image",
     "nuxt-icon",
+    "@nuxtjs/google-fonts",
   ],
   postcss: {
     plugins: {
@@ -15,5 +16,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  // modules: ["radix-vue", "@vueuse/nuxt"],
+  googleFonts: {
+    families: {
+      Merriweather: true,
+      "Noto Naskh Arabic": true,
+    },
+    display: "swap",
+    prefetch: true,
+    preconnect: true,
+    preload: true,
+  },
 });
