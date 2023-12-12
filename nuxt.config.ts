@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "radix-vue/nuxt",
     "@nuxt/image",
+    "nuxt-icon",
   ],
   postcss: {
     plugins: {
