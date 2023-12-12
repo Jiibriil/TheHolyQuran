@@ -1,16 +1,26 @@
 <template>
-  <NavigationMenuRoot class="w-full outline py-2 px-3">
+  <NavigationMenuRoot class="w-full py-4 px-4">
     <!-- list  -->
-    <NavigationMenuList class="flex outline outline-1 outline-red-500">
+    <NavigationMenuList class="flex justify-between">
       <NavigationMenuItem class="">
         <!-- Logo  -->
         <NuxtLink to="/" class="flex items-center">
-          <Icon class="w-8 h-8 text-black font-bold" name="arcticons:quranic" />
+          <Icon
+            class="w-10 h-10 text-secondary font-bold pr-1"
+            name="arcticons:quranic"
+          />
+          <h1>
+            <span class="font-bold text-primary">Learn</span>
+            <span class="font-light text-secondary">Quran</span>
+          </h1>
         </NuxtLink>
       </NavigationMenuItem>
-      <NavigationMenuItem class=""></NavigationMenuItem>
-
-      <NavigationMenuItem class=""></NavigationMenuItem>
+      <NavigationMenuItem class="">
+        <Icon
+          class="text-4xl text-secondary font-bold"
+          name="material-symbols-light:menu"
+        />
+      </NavigationMenuItem>
     </NavigationMenuList>
   </NavigationMenuRoot>
 </template>

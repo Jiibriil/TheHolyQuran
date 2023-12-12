@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <TheHero />
-  </div>
+  <div></div>
 </template>
 
 <script setup></script>

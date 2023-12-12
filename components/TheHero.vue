@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <TheHero />
-  </div>
+  <div class="h-[100vh]"></div>
 </template>
 
 <script setup></script>
